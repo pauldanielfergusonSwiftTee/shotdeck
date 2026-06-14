@@ -1,0 +1,17 @@
+{
+  "name": "ShotDeck",
+  "short_name": "ShotDeck",
+  "description": "Golf practice shot randomiser",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#00ff88",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/shotdeck-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
