@@ -504,3 +504,7 @@ button:hover:not(:disabled) {
 .help-list li {
   margin-bottom: 4px;
 }
+
+.logo {
+  cursor: pointer;
+}

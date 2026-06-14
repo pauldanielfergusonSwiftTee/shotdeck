@@ -209,7 +209,15 @@ export default function App() {
       <div className="background-grid"></div>
       <div className="background-glow"></div>
 
-      <img src={logo} alt="ShotDeck Logo" className="logo" />
+      <img
+  src={logo}
+  alt="ShotDeck Logo"
+  className="logo"
+  onClick={() => {
+    setScreen("home");
+    setConfirmType(null);
+  }}
+/>
 
       {screen === "home" && (
         <div className="panel">
